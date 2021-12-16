@@ -1,0 +1,16 @@
+https://www.baeldung.com/database-migrations-with-flyway
+https://flywaydb.org/documentation/concepts/migrations.html
+
+
+Run Command
+$ mvn -Dflyway.configFiles=customConfig.conf
+$ mvn -Dflyway.user=databaseUser -Dflyway.password=databasePassword
+  -Dflyway.schemas=schemaName
+
+
+https://stackoverflow.com/questions/39632667/how-do-i-kill-the-process-currently-using-a-port-on-localhost-in-windows
+  netstat -ano | findstr :<PORT>
+  taskkill /PID <PID> /F
+
+netstat -ano | findstr :9191
+taskkill /PID 8376 /F
