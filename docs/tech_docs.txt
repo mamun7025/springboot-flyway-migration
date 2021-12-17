@@ -3,6 +3,10 @@ https://flywaydb.org/documentation/concepts/migrations.html
 
 
 Run Command
+
+./gradlew clean
+./gradlew bootRun
+
 $ mvn -Dflyway.configFiles=customConfig.conf
 $ mvn -Dflyway.user=databaseUser -Dflyway.password=databasePassword
   -Dflyway.schemas=schemaName
